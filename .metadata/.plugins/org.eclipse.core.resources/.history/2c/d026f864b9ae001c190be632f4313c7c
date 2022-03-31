@@ -1,0 +1,18 @@
+package com.training.pms.aspects;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.Signature;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class LoggingAspect {
+	
+	@Before(value = "execution(* com.training.pms.service.ProductService.*(..))")
+	public void doLogging(JoinPoint joinpoint) {
+		Signature signature = joinpoint.getSignature();
+		System.out.println("###I am performing a loggin function for : " + signature.getName());
+	}
+}

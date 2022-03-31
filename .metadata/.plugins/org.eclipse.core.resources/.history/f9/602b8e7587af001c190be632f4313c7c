@@ -1,0 +1,56 @@
+package com.trainging.pms;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MvcResult;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+
+
+import com.trainging.pms.model.Reviews;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+
+public class ReviewControllerTest extends AbstractTest{
+
+	private String uri="/reviews";
+	private int reviewId=9999;
+	@BeforeEach
+	protected void setUp() {
+		super.setUp();
+	}
+	
+	//Test save functionality
+	
+	@Test
+	void testSave() throws Exception{
+		//Creating an object for saving
+		Reviews reviews = new Reviews(reviewId, "You are selling an awesome product", 5);
+		//Transforming into JSON
+		String reviewsJSON = super.mapToJson(reviews);
+//		Calling the rest API
+		MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.post(uri).contentType(MediaType.APPLICATION_JSON_VALUE).content(reviewsJSON)).andReturn();
+		
+		int statusCode = mvcResult.getResponse().getStatus();
+		String message = mvcResult.getResponse().getContentAsString();
+		
+		assertEquals(201, statusCode);
+		assertEquals("Reviews saved sucessfully", message);
+	}
+	
+	@Test
+	void testDelete() throws Exception{
+		//Creating an object for saving
+		Reviews reviews = new Reviews(reviewId, "You are selling an awesome product", 5);
+		//Transforming into JSON
+		String reviewsJSON = super.mapToJson(reviews);
+//		Calling the rest API
+		MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.get(uri + "/" + reviewId).contentType(MediaType.APPLICATION_JSON_VALUE).andReturn();
+		
+		int statusCode = mvcResult.getResponse().getStatus();
+		String message = mvcResult.getResponse().getContentAsString();
+		
+		assertEquals(201, statusCode);
+		assertEquals("Reviews saved sucessfully", message);
+	}
+}

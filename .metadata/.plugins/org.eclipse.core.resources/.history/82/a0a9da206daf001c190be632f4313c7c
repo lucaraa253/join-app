@@ -1,0 +1,16 @@
+package ConstructorDemo;
+
+public class PercentageCalc {
+ public static void main(String[] args) {
+	 double startAmmount = 530;
+	 double endAmmount = 584.27;
+	 double profit = (endAmmount - startAmmount);
+	 
+	 double semiFinal = (profit/startAmmount);
+	 
+	 double finalAmmount = semiFinal*100;
+	 
+	 System.out.println("You gained : " + finalAmmount + " percent today");
+	 
+}
+}

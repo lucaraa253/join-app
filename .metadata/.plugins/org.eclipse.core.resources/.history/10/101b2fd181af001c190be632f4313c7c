@@ -1,0 +1,19 @@
+package com.trainging.pms.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data 
+@Entity
+@Table(name = "jwareviews")
+public class Reviews {
+	
+	@Id
+	private int reviewId;
+	
+	private String reviewComments;
+	private int reviewStar;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="15.964">
+<testcase classname="feature to test login fucntionality of testproject" name="_2" time="4.993">
+<system-out><![CDATA[Given new tab is opened.....................................................passed
+And user is on login page of test project...................................passed
+When user enters 'Nick' and '12345'.........................................passed
+And user clicks on login button of test project.............................passed
+Then user is navigated to the home page of the test project.................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login fucntionality of testproject" name="_3" time="3.255">
+<system-out><![CDATA[Given new tab is opened.....................................................passed
+And user is on login page of test project...................................passed
+When user enters 'Daniel' and '12345'.......................................passed
+And user clicks on login button of test project.............................passed
+Then user is navigated to the home page of the test project.................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login fucntionality of testproject" name="_4" time="4.066">
+<failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given new tab is opened.....................................................passed
+And user is on login page of test project...................................passed
+When user enters 'Jon' and '1234'...........................................passed
+And user clicks on login button of test project.............................passed
+Then user is navigated to the home page of the test project.................failed
+
+StackTrace:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at com.training.cucumber.TestProjectLoginSteps.user_is_navigated_to_the_home_page_of_the_test_project(TestProjectLoginSteps.java:63)
+	at ✽.user is navigated to the home page of the test project(file:///C:/Users/lucar/eclipse-workspace/selenium-cucumber/src/test/resources/Features/login_test.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="feature to test login fucntionality of testproject" name="_5" time="3.484">
+<failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given new tab is opened.....................................................passed
+And user is on login page of test project...................................passed
+When user enters 'jonny' and '4321'.........................................passed
+And user clicks on login button of test project.............................passed
+Then user is navigated to the home page of the test project.................failed
+
+StackTrace:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at com.training.cucumber.TestProjectLoginSteps.user_is_navigated_to_the_home_page_of_the_test_project(TestProjectLoginSteps.java:63)
+	at ✽.user is navigated to the home page of the test project(file:///C:/Users/lucar/eclipse-workspace/selenium-cucumber/src/test/resources/Features/login_test.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+package com.training.pms.repositories;
+
+public interface ProductRepository {
+
+}

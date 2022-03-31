@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\lucar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\431501274.index
+\ajax-demos\src\main\resources
+C:\Users\lucar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3277357421.index
+\ajax-demo2\src\main\resources
+C:\Users\lucar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\312606647.index
+\servlet-demo\src\main\resources
+C:\Users\lucar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\71680595.index
+\alstrom-ers-revature\src\main\resources
+C:\Users\lucar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\169311797.index
+\alstrom-ers-revature\src\main\java

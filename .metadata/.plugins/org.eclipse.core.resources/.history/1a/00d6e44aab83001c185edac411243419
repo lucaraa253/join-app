@@ -1,0 +1,17 @@
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		String name = "Nick";
+//		Prints Name
+		System.out.println(name);
+//		Prints out length of letters
+		System.out.println(name.length());
+//		Prints out character at certain point
+		System.out.println(name.charAt(2));
+		
+
+	}
+
+}

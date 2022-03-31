@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- Employee emp = new Employee -->
+	<bean id="emp" class="com.training.spring.Employee">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<property name="employeeName" value="Devyn"></property>
+	</bean>
+	
+	<bean id="emp1" class="com.training.spring.Employee">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<constructor-arg name="employeeName" value="Trey"></constructor-arg>
+	</bean>
+	<bean id="emp2" class="com.training.spring.Employee">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<constructor-arg name="employeeName" value="Joel"></constructor-arg>
+	</bean>
+	
+	<bean id="cust" class="com.training.spring.Customer">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<property name="customerId" value="1999"></property>
+		<property name="customerName" value="Joseph"></property>
+		<property name="customerAddress" value="NewYork"></property>
+		<property name="balance" value="189999"></property>
+	</bean>
+	
+	<bean id="address1" class="com.training.spring.Address">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<property name="addressId" value="12"></property>
+		<property name="city" value="puyallup"></property>
+		<property name="state" value="WA"></property>
+		<property name="zipCode" value="98373"></property>
+		<property name="address" ref="address2"></property>
+	</bean>
+	<bean id="address2" class="com.training.spring.Address">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<constructor-arg name="addressId" value="11"></constructor-arg>
+		<constructor-arg name="city" value="boston"></constructor-arg>
+		<constructor-arg name="state" value="NewYork"></constructor-arg>
+		<constructor-arg name="zipCode" value="90278"></constructor-arg>
+	</bean>
+	
+	<bean id="to" class="com.training.spring.To">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<property name="toName" value="John"></property>
+		<property name="toEmail" value="JohnsHopkins@gmail.com"></property>
+	</bean>
+	<bean id="from" class="com.training.spring.From">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<property name="fromName" value="Henry"></property>
+		<property name="fromEmail" value="HenryBoi@gmail.com"></property>
+	</bean>
+	<bean id="subject" class="com.training.spring.Subject">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<property name="caption" value="You wont believe this"></property>
+	</bean>
+	<bean id="body" class="com.training.spring.Body">
+	<!-- emp.setEmployeeName("Devyn") -->
+		<property name="message" value="You may take either the red or blue pill. The choice is yours"></property>
+	</bean>
+	
+	
+	<bean id="email" class="com.training.spring.Email" autowire="byName">
+	<!-- emp.setEmployeeName("Devyn") -->
+		
+	</bean>
+	
+	
+	
+</beans>
+

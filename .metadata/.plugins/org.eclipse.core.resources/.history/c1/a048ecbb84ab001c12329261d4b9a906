@@ -1,0 +1,8 @@
+package com.training.pms.model;
+
+public class Product {
+	private int productId;
+	private String productName;
+	private int QuantityOnHand;
+	private int price;
+}

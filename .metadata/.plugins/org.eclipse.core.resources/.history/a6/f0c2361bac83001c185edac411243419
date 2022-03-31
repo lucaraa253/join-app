@@ -1,0 +1,27 @@
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		String name = "NickLucara";
+//		Prints Name
+		System.out.println(name);
+//		Prints out length of letters
+		System.out.println(name.length());
+//		Prints out character at certain point
+		System.out.println(name.charAt(2));
+//		Concatenating strings
+		System.out.println(name.concat("Revature"));
+//		Compares strings
+		System.out.println(name.compareTo("Amad"));
+		System.out.println(name.compareToIgnoreCase("Nicky"));
+//		Substrings to remove letters from the front
+		System.out.println(name.substring(2));
+//		Makes String uppercase
+		System.out.println(name.toUpperCase());
+		
+		System.out.println(name.endsWith("n"));
+
+	}
+
+}

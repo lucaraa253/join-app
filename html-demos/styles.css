@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: orange;
+}
+
+th,td,table{
+	border:black solid 2px;
+}

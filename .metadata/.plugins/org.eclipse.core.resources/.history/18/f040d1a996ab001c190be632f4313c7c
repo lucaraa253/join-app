@@ -1,0 +1,90 @@
+package com.training.pms.model;
+
+public class Patient {
+	private int patientId;
+    private String patientName;
+    private String symptom;
+    private int billAmmount;
+    private String doctorAttended;
+     
+     
+     
+	public Patient(int patientId, String patientName, String symptom, int billAmmount, String doctorAttended) {
+		super();
+		this.patientId = patientId;
+		this.patientName = patientName;
+		this.symptom = symptom;
+		this.billAmmount = billAmmount;
+		this.doctorAttended = doctorAttended;
+	}
+
+
+
+	public int getPatientId() {
+		return patientId;
+	}
+
+
+
+	public void setPatientId(int patientId) {
+		this.patientId = patientId;
+	}
+
+
+
+	public String getPatientName() {
+		return patientName;
+	}
+
+
+
+	public void setPatientName(String patientName) {
+		this.patientName = patientName;
+	}
+
+
+
+	public String getSymptom() {
+		return symptom;
+	}
+
+
+
+	public void setSymptom(String symptom) {
+		this.symptom = symptom;
+	}
+
+
+
+	public int getBillAmmount() {
+		return billAmmount;
+	}
+
+
+
+	public void setBillAmmount(int billAmmount) {
+		this.billAmmount = billAmmount;
+	}
+
+
+
+	public String getDoctorAttended() {
+		return doctorAttended;
+	}
+
+
+
+	public void setDoctorAttended(String doctorAttended) {
+		this.doctorAttended = doctorAttended;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Patient [patientId=" + patientId + ", patientName=" + patientName + ", symptom=" + symptom
+				+ ", billAmmount=" + billAmmount + ", doctorAttended=" + doctorAttended + "]";
+	}
+     
+     
+}

@@ -1,0 +1,5 @@
+package com.trainging.pms;
+
+public abstract class AbstractTest {
+
+}

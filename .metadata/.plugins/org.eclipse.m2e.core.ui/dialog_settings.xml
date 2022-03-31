@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\lucar\eclipse-workspace\java-basics\src\ConstructorDemo\PercentageCalc.java"/>
+			<item value="C:\Users\lucar\eclipse-workspace\servlet-demo"/>
+			<item value="C:\Users\lucar\eclipse-workspace\selenium-saucetest\src\test\java\com\training\selenium_basics\ChromeTest.java"/>
+			<item value="C:\Users\lucar\eclipse-workspace\html-demos\recap.html"/>
+			<item value="C:\Users\lucar\eclipse-workspace\ajax-demos"/>
+			<item value="C:\Users\lucar\eclipse-workspace\Junit_basics\src\test\java\com\training\pms\Junit_basics\CalculatorTest.java"/>
+			<item value="C:\Users\lucar\eclipse-workspace\product-app-alstrom"/>
+			<item value="C:\Users\lucar\eclipse-workspace\jwa-product-app\src\main\java\com\training\jwa\jwa_product_app\App.java"/>
+			<item value="C:\Users\lucar\eclipse-workspace\first-maven-project\src\main\java\com\training\jwa\first_maven_project\Demo.java"/>
+			<item value="C:\Users\lucar\eclipse-workspace\java-basics"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.training.spring"/>
+			<item value="com.training.alstrom_ers_revature"/>
+			<item value="com.training"/>
+			<item value="com.training.selenium_cucumber"/>
+			<item value="com.training.selenium_basics"/>
+			<item value="com"/>
+			<item value="com.training.pms.ajax_demos"/>
+			<item value="com.training.pms.junit_testcase"/>
+			<item value="com.training.pms.Junit_basics"/>
+			<item value="com.training.pms.j_unitbasics"/>
+			<item value="com.training.pms"/>
+			<item value="com.training.jwa.jwa_product_app"/>
+			<item value="com.training.jwa.first_maven_project"/>
+		</list>
+		<list key="groupId">
+			<item value="com.training.spring"/>
+			<item value="com.training"/>
+			<item value="com"/>
+			<item value="com.training.pms"/>
+			<item value="com.training.jwa"/>
+		</list>
+		<list key="artifactId">
+			<item value="spring-basics"/>
+			<item value="alstrom-ers-revature"/>
+			<item value="servlet-demo"/>
+			<item value="selenium-cucumber"/>
+			<item value="selenium-basics"/>
+			<item value="ajax-demo2"/>
+			<item value="ajax-demos"/>
+			<item value="junit-testcase"/>
+			<item value="Junit_basics"/>
+			<item value="j-unitbasics"/>
+			<item value="product-app-alstrom"/>
+			<item value="jwa-product-app"/>
+			<item value="first-maven-project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\lucar\Downloads\junit-basics-master\junit-basics-master"/>
+			<item value="C:\Users\lucar\Downloads\junit-basics-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

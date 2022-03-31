@@ -1,0 +1,5 @@
+package com.trainging.pms.repositories;
+
+public interface ReviewsRepository {
+
+}

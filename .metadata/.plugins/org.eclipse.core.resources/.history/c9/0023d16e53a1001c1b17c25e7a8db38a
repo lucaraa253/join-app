@@ -1,0 +1,11 @@
+package Factory;
+
+public class CurrentAccount implements Account {
+
+	@Override
+	public String getDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

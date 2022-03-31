@@ -1,0 +1,15 @@
+package com.training.pms.aspects;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class LoggingAspect {
+	
+	@Before("com.training.pms.service.ProductServiceImpl.getProducts()")
+	public void doLogging() {
+		System.out.println("###I am performing a loggin function");
+	}
+}

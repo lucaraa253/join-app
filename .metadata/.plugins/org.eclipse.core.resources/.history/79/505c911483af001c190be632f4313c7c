@@ -1,0 +1,22 @@
+package com.trainging.pms;
+
+import org.junit.jupiter.api.Test;
+
+import com.trainging.pms.model.Reviews;
+
+public class ReviewControllerTest extends AbstractTest{
+
+	private String uri="/reviews";
+	
+	protected void setUp() {
+		super.setUp();
+	}
+	
+	//Test save functionality
+	
+	@Test
+	void testSave(){
+		Reviews reviews = new Reviews(12313, "You are selling an awesome product", 5);
+		String reviewsJSON = super.mapToJson(reviews);
+	}
+}

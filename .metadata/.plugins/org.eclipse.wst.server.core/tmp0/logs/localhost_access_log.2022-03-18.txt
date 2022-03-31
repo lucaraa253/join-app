@@ -1,0 +1,9 @@
+127.0.0.1 - - [18/Mar/2022:14:20:11 -0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:14:20:11 -0700] "GET /alstrom-ers-revature/ HTTP/1.1" 200 607
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:14:20:11 -0700] "GET /alstrom-ers-revature/styles.css HTTP/1.1" 200 156
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:14:20:15 -0700] "GET /alstrom-ers-revature/signUp2.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:14:20:29 -0700] "GET /alstrom-ers-revature/SignUpPageController?username=lucaraa2555&password=aaaaaaaa&confirmpassword=aaaaaaaa&firstName=Nicksss&lastName=Yang HTTP/1.1" 200 290
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:14:20:35 -0700] "GET /alstrom-ers-revature/login2.html HTTP/1.1" 404 787
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:14:21:01 -0700] "GET /alstrom-ers-revature/logIn2.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:14:21:09 -0700] "POST /alstrom-ers-revature/LogIn2Controller HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:14:21:22 -0700] "GET /alstrom-ers-revature/SearchUser.jsp HTTP/1.1" 200 373

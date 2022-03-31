@@ -1,0 +1,5 @@
+package com.trainging.pms.models;
+
+public class Book {
+
+}

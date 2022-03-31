@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [16/Mar/2022:09:47:48 -0700] "GET /alstrom-ers-revature/DisplayUserDetails.jsp HTTP/1.1" 500 3283
+0:0:0:0:0:0:0:1 - - [16/Mar/2022:09:47:50 -0700] "GET /alstrom-ers-revature/SearchUser.jsp HTTP/1.1" 200 373

@@ -1,0 +1,11 @@
+package Factory;
+
+public class SavingsAccount implements Account {
+
+	@Override
+	public String getDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

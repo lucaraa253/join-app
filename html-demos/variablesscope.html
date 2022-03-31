@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript">
+
+function printHelloWorld1(){
+	console.log("Hello World 1")
+}
+var printHelloWorld2 = () => console.log("Hello World 2")
+
+var highestNum = () => {
+	var num1 = prompt("Enter number 1");
+	var num2 = prompt("Enter number 2");
+	var num3 = prompt("Enter number 3");
+	let largeNum = num1;
+	if(num2 > largeNum){
+		largeNum=num2
+	}else if(num3 > largeNum){
+		largeNum = num3
+	}
+	return alert("The largest number is : " + largeNum);
+}
+
+function demo(){
+	var marks = 100;
+	{
+		let marks = 90;
+		console.log("Let : " + marks)
+	}
+	console.log("Var : " + marks)
+}
+total = 0; //global variable
+function sum(){
+	y = 20;
+	var x = 10; //local variable
+	total = x+y;
+}
+function display(){
+	sum();
+	alert(total);
+	alert(y);
+	alert(x);//error since this is not a global variable
+}
+function func1(){
+	var animal1 = "lion"
+	
+	function func2(){
+		var animal2 = "Tiger"
+		console.log(animal1)
+		console.log(animal2)
+	}a
+}
+//Arrow function
+var sum1 = (a,b) => {
+	let result = a+b;
+	return "Sum is" + result;
+}
+
+function sum2(a,b){
+	let result = a + b;
+	return "Sum is" + result;
+}
+
+</script>
+<body>
+	<script>
+		highestNum(5,4,6);
+		printHelloWorld1();
+		printHelloWorld2();
+		sum1;
+		sum2;
+		demo();
+		display();	
+		func1();
+	</script>
+</body>
+</html>

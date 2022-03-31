@@ -1,0 +1,5 @@
+package com.training.pms.service;
+
+public class AppointmentServiceImpl implements AppointmentService{
+
+}

@@ -1,0 +1,17 @@
+
+public class Demo1 {
+
+	public void printWelcomeMessage() {
+		System.out.println("Hi, welcome to revature training");
+	}
+	public void addNumbers(int num1, int num2) {
+		System.out.println(num1 + num2);
+	}
+	public static void main(String[] args) {
+		System.out.println("Hello and welcome to day 2 training");
+		Demo1 d = new Demo1();
+		d.printWelcomeMessage();
+		d.addNumbers(16, 21);
+	}
+
+}

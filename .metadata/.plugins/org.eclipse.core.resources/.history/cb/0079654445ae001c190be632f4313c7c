@@ -1,0 +1,8 @@
+package com.training.pms.utility;
+
+public class Demo {
+	
+	public String getMessage() {
+		return "This is coming from demo class from Nick Lucara";
+	}
+}

@@ -1,0 +1,59 @@
+package com.training.pms.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.training.pms.model.Doctor;
+import com.training.pms.model.Product;
+import com.training.pms.repositories.DoctorRepository;
+
+public class DoctorServiceImpl implements DoctorService{
+	
+	@Autowired
+	DoctorRepository doctorRepo;
+	
+	@Override
+	public String addDoctor(Doctor doctor) {
+		System.out.println("Adding doctor");
+		doctorRepo.save(doctor);
+		return "Product was saved";
+	}
+
+	@Override
+	public String updateDoctor(int doctorId, Doctor doctor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteDoctor(int doctorId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Doctor> getDoctors() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product getDoctor(int doctorId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isDoctorExists(int doctorId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public String deleteDoctor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

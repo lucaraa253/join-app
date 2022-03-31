@@ -1,0 +1,15 @@
+10:17:56,180  INFO App:21 - Nick has logged in at Thu Mar 10 10:17:56 PST 2022
+10:17:56,184  INFO App:24 - Calling the info
+10:17:56,184  WARN App:25 - Calling the warn
+10:17:56,184 ERROR App:26 - Calling the error
+10:17:56,184 FATAL App:27 - Calling the fatal
+10:18:21,166  INFO App:21 - Jonh has logged in at Thu Mar 10 10:18:21 PST 2022
+10:18:21,167  INFO App:24 - Calling the info
+10:18:21,167  WARN App:25 - Calling the warn
+10:18:21,167 ERROR App:26 - Calling the error
+10:18:21,167 FATAL App:27 - Calling the fatal
+10:20:26,981  INFO App:21 - Nick has logged in at Thu Mar 10 10:20:26 PST 2022
+10:20:26,985  INFO App:24 - Calling the info
+10:20:26,985  WARN App:25 - Calling the warn
+10:20:26,985 ERROR App:26 - Calling the error
+10:20:26,985 FATAL App:27 - Calling the fatal

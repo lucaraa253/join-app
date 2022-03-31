@@ -1,0 +1,66 @@
+package com.trainging.pms.controller;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+//used at method or class level
+@RequestMapping("product")
+public class ProductController {
+	
+	
+	@GetMapping
+	public String getProducts() { //localhost:5050/product   -GET
+		return "Gettin all the products";
+	}
+	
+	@GetMapping("{productId}")
+	public String getProduct(@PathVariable("productId") int productId) { //localhost:5050/product   -GET
+		return "Getting a single product by product ID : " + productId;
+	}
+	
+	@GetMapping("SearchProductByName/{productName}")
+	public String getProductByName(@PathVariable("productName")String pName) { //localhost:5050/product   -GET
+		return "Getting a single product by product Name : " + pName;
+	}
+	
+	@GetMapping("filterProductByPrice/{lowerPrice}/{higherPrice}")
+	public String getProductByPrices(@PathVariable("lowerPrice")int price1, @PathVariable("higherPrice")int price2) { //localhost:5050/product   -GET
+		return "Searching all products between : " + price1 + " and " + price2;
+	}
+	
+	@GetMapping("single")
+	public String getSingleProduct() {     //localhost:5050/product/single   -GET
+		return "Gettin a single product";
+	}
+	
+	@PostMapping
+	public String saveProduct() {     //localhost:5050/product   -Post
+		return "saving a single product";
+	}
+	
+	@PutMapping
+	public String updateProduct() {    //localhost:5050/product   -Put
+		return "updating a single product";
+	}
+
+	
+	@DeleteMapping("deleteProduct/{id}")
+	public String deleteProduct(@PathVariable("id")int id) {    //localhost:5050/product   -Delete
+		return "successfully deleted product with product ID : " + id;
+	}
+	@DeleteMapping("deleteProductByName/{name}")
+	public String deleteProduct(@PathVariable("name")String productName) {    //localhost:5050/product   -Delete
+		return "successfully deleted product with product name : " + productName;
+	}
+	
+	@DeleteMapping("/allProduct")
+	public String deleteProduct2() {    //localhost:5050/product   -Delete
+		return "saving a single product";
+	}
+}

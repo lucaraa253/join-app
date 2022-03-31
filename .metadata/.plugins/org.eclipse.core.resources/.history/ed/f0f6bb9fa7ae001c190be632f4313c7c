@@ -1,0 +1,13 @@
+package com.training.pms.repositories;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.training.pms.model.Product;
+
+public interface ProductRepository extends CrudRepository<Product, Integer>{
+	List<Product> findByName(String productName);
+	List<Product> findByPriceBetween(int lowerPrice, int upperPrice);
+	List<Product> findByQuantityOnHandBetween(int lowerBound, int upperBound);
+}

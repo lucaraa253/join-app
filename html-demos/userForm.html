@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1 style="width:600px; text-align:center;margin: 0 auto;">USER FORM</h1>
+	<div style="width:400px; text-align:center;margin: 0 auto;">
+	<form class="form-style" action="success.html" onsubmit="return validate()">
+		<table style="border:black solid 2px;">
+			<tr>
+				<td><label> Username: </label></td>
+				<td><input type="text" size="31" name="username" id="username" placeholder="please enter username">
+				<span id="errUserName"></span></td>
+			</tr>
+			<tr>
+				<td><label> Spouse Name: </label></td>
+				<td><input type="text" size="31" name="spousename" id="spousename" placeholder="please enter spouses' name">
+				<span id="errUserName"></span></td>
+			</tr>
+			<tr>
+				<td><label> Gender: </label></td>
+				<td><input type="radio" name="gender" value="male" id="radio1">Male
+					<input type="radio" name="gender" value="female" id="radio2">Female
+					<input type="radio" name="gender" value="others" id="radio3">Others</td>
+			</tr>
+			<tr>
+				<td><label> Comments: </label></td>
+				<td><input type="radio" name="gender" value="like" id="radio1">Like
+					<input type="radio" name="gender" value="dontlike" id="radio2">Dont like
+			</tr>
+			<tr>
+				<td><input type="submit" value="SignUp"></td>
+				<td><input type="reset" value="Clear"></td>
+			</tr>
+		</table>
+	</form>
+	</div>
+</body>
+</html>

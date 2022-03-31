@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+var xmlHttp = new XMLHttpRequest(); 
+function display()
+{
+	xmlHttp.open("GET", "test.txt", true);
+	xmlHttp.onreadystatechange=readData;
+	xmlHttp.send(null);
+}
+function readData()
+{
+	if(xmlHttp.readyState == 4)
+	{
+		document.getElementById('myDiv').innerHTML = xmlHttp.responseText;	
+	}
+}
+</script>
+<body>
+<p> 
+User name : <input type="text" id="uname"><br/><br/>
+
+<a href="javascript:display()">Replace Text</a></p>
+<div id="myDiv"> Message will come here..</div>	
+</body>
+</html>

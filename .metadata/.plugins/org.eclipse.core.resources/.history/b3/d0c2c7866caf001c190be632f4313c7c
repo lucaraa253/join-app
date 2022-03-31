@@ -1,0 +1,13 @@
+package com.trainging.pms.model;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Data 
+@Entity
+public class Reviews {
+	private int reviewId;
+	private String reviewComments;
+	private int reviewStar;
+}

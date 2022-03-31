@@ -1,0 +1,5 @@
+10:23:26,383  INFO App:21 - Nick has logged in at Thu Mar 10 10:23:26 PST 2022
+10:23:26,385  INFO App:24 - Calling the info
+10:23:26,385  WARN App:25 - Calling the warn
+10:23:26,386 ERROR App:26 - Calling the error
+10:23:26,386 FATAL App:27 - Calling the fatal
